@@ -1,0 +1,18 @@
+export default function MediaCard(props) {
+  console.log(props);
+  const classes = useStyles();
+  const user = JSON.parse(localStorage.getItem("user"));
+  console.log(user);
+
+  return (
+        <div>
+            <h1> NAME: {user.username}</h1>
+            <h1>EMAIL-ID:{user.email}</h1>
+           
+        </div>
+
+Details page content
+image 
+name 
+price 
+description
